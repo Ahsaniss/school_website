@@ -1,0 +1,125 @@
+
+.container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    
+    background-color:transparent;
+    color: rgb(9, 7, 7);
+  
+  }
+  .typing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 32px;
+    background-color: white;
+    
+    
+}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+    color: #0b0909;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+      
+      font-size: xx-large;
+      margin: auto;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+  
+  #dropdownMenuLink{
+   margin-right: 6px;
+    
+  }
+  .custom-card {
+    border-left: 4px solid rgb(8, 10, 11); /* Adjust border color and width as needed */
+    transition: border-left-color 0.1s ease-in-out; /* Optional: Add transition effect */
+    margin-top: 20px;
+  }
+  
+  .custom-card:hover {
+    border-left-color:rgb(6, 8, 8); /* Optional: Change border color on hover */
+  }
+  
+  .custom-card .card-body {
+    padding: 1rem; /* Adjust padding as needed */
+  }
+  
+  .custom-card img {
+    border-radius: 8px; /* Optional: Add border radius to images */
+  }
+  #myBtn{
+    border-radius: 4px;
+    background-color:rgb(5, 5, 5);
+    color: white;
+    border-color: transparent;
+  }
+  #more { display: none; }
+  #more1 { display: none; }
+  #myBtn1{
+    border-radius: 4px;
+    background-color:rgb(11, 11, 11);
+    color: white;
+    border-color: transparent;
+  }
+  #more2 { display: none; }
+  #myBtn2{
+    border-radius: 4px;
+    background-color:rgb(16, 16, 16);
+    color: white;
+    border-color: transparent;
+  }
+  .notifications{
+    display: flex;
+    justify-content:space-around ;
+    padding: 60px ;
+    
+  }
+  .card-header{
+    background-color: rgb(121, 121, 121);
+    color: #0b0b0b;
+
+  }
+/*.card{
+  background-color:#adadae;
+}*/
+.list-group a {
+  text-decoration: none;
+  color: rgb(6, 6, 6);
+}
+.card{
+  border-radius: 0px;
+  border-color: transparent;
+}
+.background-cover{
+  background-image:url('9fb0af09-330c-43eb-90d7-f952782003a6.jpg');
+   
+}
+  
